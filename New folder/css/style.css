@@ -1,0 +1,187 @@
+html,
+body {
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #40424a;
+  margin: 0;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+/*---------------------
+	nikesh section
+-----------------------*/
+.cv {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.nikesh-section {
+  background: #e3f2fd;
+}
+
+.nikesh-text {
+  margin-bottom: 60px;
+}
+
+.nikesh-text h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.nikesh-text p {
+  font-size: 33px;
+  line-height: 1.3;
+}
+
+.nikesh-image {
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.nikesh-image img {
+  -webkit-box-shadow: 6px 20px 50px rgba(0, 0, 0, 0.5294117647);
+  box-shadow: 6px 20px 50px rgba(0, 0, 0, 0.5294117647);
+  max-width: 100%;
+}
+
+.nikesh-info h2 {
+  margin-bottom: 30px;
+}
+
+.nikesh-info ul {
+  list-style: none;
+}
+
+.nikesh-info ul li {
+  font-size: 24px;
+  color: #808181;
+  margin-bottom: 15px;
+}
+
+.nikesh-info ul li span {
+  color: #40424a;
+  display: inline-block;
+  min-width: 220px;
+}
+
+.nikesh-info ul li:last-child {
+  margin-bottom: 100px;
+}
+
+/*---------------------
+	Resume section
+----------------------*/
+.section-title {
+  margin-top: 100px;
+}
+
+.resume-section.with-bg {
+  background-image: url(../img/resume-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resume-list {
+  list-style: none;
+  margin-left: 60px;
+  padding-left: 110px;
+  border-left: 2px solid #40424a;
+}
+
+.resume-list li {
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.resume-list li:last-child {
+  margin-bottom: 100px;
+}
+
+.resume-list li:after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 2px solid #40424a;
+  border-radius: 50px;
+  background: #cacaca;
+  top: 30px;
+  left: -118px;
+}
+
+.resume-list h2 {
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.resume-list h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #808181;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.resume-list p {
+  margin-bottom: 0;
+}
+
+/* end of resume list */
+
+/* start of footer area */
+
+.footer-area {
+  padding-top: 100px;
+  background-color: #222222;
+}
+.single-footer-widget {
+  border: none;
+  width: 80%;
+  font-weight: 300;
+  color: #bbb;
+  padding-left: 20px;
+  border-radius: 0;
+  font-size: 14px;
+}
+h6 {
+  color: #ddd;
+}
+.footer-social a {
+  padding-right: 25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-social i {
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
